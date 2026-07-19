@@ -2,4 +2,19 @@
 *.tmp
 __pycache__/
 *.pyc
+<<<<<<< HEAD
 .env
+=======
+.env
+>>>>>>> caa26d49a61fdca6149a9edd023f47d7e857f9e3
+git log --oneline --graph --all
+
+git add .
+
+git commit -m "Final version ready for submission"
+
+git push origin main
+
+git tag -a v1.0 -m "Final release version of Hospital Appointment Booking System"
+
+git push origin v1.0
